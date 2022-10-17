@@ -23,46 +23,50 @@ $(document).ready(function(){
     // -------------MultiTables 
 
     var table = $('#example').DataTable({
-        // responsive: true
-        "ajax":{
-            "url":"conexionBDD/consulta.php",
-            'dataSrc': 'Data'
+        responsive: true
+    //     "ajax":{
+    //         "url":"conexionBDD/consulta.php",
+    //         'dataSrc': 'Data'
 
-        },
-        "columns":
-        [
-            {"data":"user_id"},
-            {"data":"user_name"},
-            {"data":"user_firstname"},
-        ]
+    //     },
+    //     "columns":
+    //     [
+    //         {"data":"user_id"},
+    //         {"data":"user_name"},
+    //         {"data":"user_firstname"},
+    //     ]
       }); 
     
       var table1 = $('#example1').DataTable({
-            "ajax":{
-            "url":"conexionBDD/consulta.php",
-            'dataSrc': 'Data'
+        responsive: true
 
-        },
-        "columns":
-        [
-            {"data":"user_id"},
-            {"data":"user_name"},
-            {"data":"user_firstname"},
-        ]
+        //     "ajax":{
+        //     "url":"conexionBDD/consulta.php",
+        //     'dataSrc': 'Data'
+
+        // },
+        // "columns":
+        // [
+        //     {"data":"user_id"},
+        //     {"data":"user_name"},
+        //     {"data":"user_firstname"},
+        // ]
       });
     
       var table2 = $('#example2').DataTable({
-            "ajax":{
-            "url":"conexionBDD/consulta.php",
-            'dataSrc': 'Data'
+        responsive: true
 
-        },
-        "columns":
-        [
-            {"data":"user_id"},
-            {"data":"user_name"},
-            {"data":"user_firstname"},
-        ]
+        //     "ajax":{
+        //     "url":"conexionBDD/consulta.php",
+        //     'dataSrc': 'Data'
+
+        // },
+        // "columns":
+        // [
+        //     {"data":"user_id"},
+        //     {"data":"user_name"},
+        //     {"data":"user_firstname"},
+        // ]
       });
     
     
